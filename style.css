@@ -1,13 +1,54 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #fafafa;
+    color: #111;
+}
+
+a {
+    color: #111;
+}
+
+a:hover {
+    color: #f55;
+    transition: 0.2s ease-in-out;
 }
 
 #main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f1f1f1;
+    margin-top: 200px;
+    padding: 20px;
     font-family: 'Quicksand', sans-serif;
+    background-color: #f1f1f1;
+}
+
+#description {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#social {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+}
+
+.icon img {
+    width: 75px;
+    transition: 0.2s ease-in-out;
+}
+
+.icon:hover img {
+     width: 85px;
+     background: #f55;
+     border-radius: 10px;
 }
