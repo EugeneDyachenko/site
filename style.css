@@ -17,33 +17,44 @@ a:hover {
 #main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 20%;
     padding: 20px;
     font-family: 'Quicksand', sans-serif;
     background-color: #f1f1f1;
+    box-shadow: 1px 1px 15px px black;
 }
 
 #description {
     display: flex;
-    justify-content: space-between;
-    width: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
     font-size: 18px;
 }
 
+#tagline {
+    margin-right: 15px;
+}
+
 #social {
     display: flex;
-    justify-content: space-around;
-    width: 500px;
-    height: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    min-height: 100px;
+}
+
+.icon {
+    margin-right: 15px;
 }
 
 .icon img {
     width: 75px;
+    padding: 5px;
     transition: 0.2s ease-in-out;
 }
 
