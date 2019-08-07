@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-    color: #f55;
+    color: #77f;
     transition: 0.2s ease-in-out;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 
 .icon:hover img {
      width: 85px;
-     background: #f55;
+     background: #77f;
      border-radius: 10px;
 }
 
@@ -94,7 +94,7 @@ a:hover {
 }
 
 #another-fact:not([disabled]):hover {
-    background-color: #f55;
+    background-color: #77f;
 }
 
 @keyframes slide-up {
