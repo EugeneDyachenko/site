@@ -20,7 +20,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     margin: 10% 0;
-    padding: 20px;
+    padding: 30px;
     font-family: 'Quicksand', sans-serif;
     background-color: #f1f1f1;
     box-shadow: 1px 1px 15px px black;
@@ -81,8 +81,8 @@ a:hover {
     border: none;
     cursor: pointer;
     padding: 10px;
-    background-color: black;
-    color: white;
+    background-color: #111;
+    color: #fafafa;
     font-weight: bold;
     border-radius: 5px;
 }
