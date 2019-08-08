@@ -52,7 +52,10 @@ anotherFactButtonElement.addEventListener('click', () => {
 
     addFact(nextFactIndex);
     nextFactIndex++;
-    window.scrollTo(0, document.body.scrollHeight);
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth",
+    });
 
     if (nextFactIndex === factsHtml.length) {
         anotherFactButtonElement.innerHTML = 'That\'s all. Thanks!';
