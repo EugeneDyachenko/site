@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    background: linear-gradient(127deg, rgba(76, 54, 123, 0.3) 1.5%, rgba(11, 11, 144, 0.3) 25%, rgba(23, 149, 203, 0.3) 70%, rgba(5, 255, 240, 0.3) 100%);
     color: #111;
 }
 
@@ -22,7 +22,7 @@ a:hover {
     margin: 10% 0;
     padding: 30px;
     font-family: 'Quicksand', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #fafafa;
     box-shadow: 1px 1px 15px px black;
 }
 
