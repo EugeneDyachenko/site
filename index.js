@@ -61,6 +61,12 @@ anotherFactButtonElement.addEventListener('click', () => {
         behavior: "smooth",
     });
 
+    gtag('event', 'another_fact_button_clicked', {
+        'event_category': 'button_clicked',
+        'event_label': 'another_fact_button_clicked',
+        'value': 1
+    });
+
     if (nextFactIndex === factsHtml.length) {
         anotherFactButtonElement.innerHTML = 'That\'s all. Thanks!';
         anotherFactButtonElement.disabled = true;  
