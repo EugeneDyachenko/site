@@ -64,7 +64,7 @@ anotherFactButtonElement.addEventListener('click', () => {
     gtag('event', 'another_fact_button_clicked', {
         'event_category': 'button_clicked',
         'event_label': 'another_fact_button_clicked',
-        'value': 1
+        'value': nextFactIndex,
     });
 
     if (nextFactIndex === factsHtml.length) {
