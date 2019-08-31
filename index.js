@@ -18,7 +18,7 @@ const factsHtml = [
     'Was JavaScript mentor for a group of people three times',
     '4th place in Ukraine informatical olympiad (2016)',
     'Know C++ basics',
-    'Have some articles in Medium: <a href="https://medium.com/@eugenedyachenko/javascript-course-lesson-0-d8cfa98ae2ec">#1</a> <a href="https://medium.com/@eugenedyachenko/javascript-course-lesson-1-aee1ce9bcae">#2</a>',
+    'Have some articles in Medium: <a href="https://medium.com/@eugenedyachenko/javascript-course-lesson-0-d8cfa98ae2ec">article #1</a> <a href="https://medium.com/@eugenedyachenko/javascript-course-lesson-1-aee1ce9bcae">article #2</a>',
 
     'Warning! Facts below are not important :)',
 
