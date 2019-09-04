@@ -29,7 +29,7 @@ const factsHtml = [
     'Lost half of life in video games',
     'Made friend write a lot of facts about me',
     'Like reading',
-    'Don\t like boring things',
+    'Don\'t like boring things',
     'Pixel is the best smartphone ever',
     'Lost Pixel 2XL in bus',
     'Favorite city - Kiev',
