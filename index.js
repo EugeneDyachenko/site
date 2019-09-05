@@ -1,5 +1,6 @@
 const anotherFactButtonElement = document.getElementById('another-fact');
 const factsContainerElement = document.getElementById('facts');
+const socialAnchorsElements = [...document.querySelectorAll('.icon a')];
 
 // okay. if you can open index.js - you can read all facts withour button clicking
 const factsHtml = [
@@ -52,6 +53,20 @@ const addFact = (nextFactIndex) => {
     console.log('fact added');
 }
 
+const trackSocialAnchorClick = (event) => {
+    const socialName = event.currentTarget.dataset.name;
+
+    gtag('event', `${socialName}_clicked`, {
+        'event_category': 'button_clicked',
+        'event_label': `${socialName}_clicked`,
+        'value': 10,
+    });
+}
+
+for (const anchor of socialAnchorsElements) {
+    anchor.addEventListener('click', trackSocialAnchorClick);
+}
+
 anotherFactButtonElement.addEventListener('click', () => {
 
     addFact(nextFactIndex);
@@ -61,10 +76,13 @@ anotherFactButtonElement.addEventListener('click', () => {
         behavior: "smooth",
     });
 
-    gtag('event', 'another_fact_button_clicked', {
+    const gEventLabel = (nextFactIndex === 1) ? 'first_fact_button_click' : 'fact_button_click';
+    const gEventValue = (nextFactIndex === 1) ? 5 : 1;
+
+    gtag('event', gEventLabel, {
         'event_category': 'button_clicked',
-        'event_label': 'another_fact_button_clicked',
-        'value': nextFactIndex,
+        'event_label': gEventLabel,
+        'value': gEventValue,
     });
 
     if (nextFactIndex === factsHtml.length) {
