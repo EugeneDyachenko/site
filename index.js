@@ -20,10 +20,11 @@ const factsHtml = [
     '4th place in Ukraine informatical olympiad (2016)',
     'Know C++ basics',
     'Have some articles in Medium: <a href="https://medium.com/@eugenedyachenko/javascript-course-lesson-0-d8cfa98ae2ec" rel="nofollow">article #1</a> <a href="https://medium.com/@eugenedyachenko/javascript-course-lesson-1-aee1ce9bcae">article #2</a>',
+    'Write <a href="https://medium.com/@eugenedyachenko/%D0%BA%D0%B0%D0%BA-%D0%BD%D0%B5-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83-%D0%B2-it-8f37fc6aaf40">article about work searches</a>',
 
-    'Warning! Facts below are not important :)',
+    'Warning! Facts below baybe not important for you :)',
 
-    '21 years old',
+    '22 years old',
     'Created telegram channel with funny videos - but gave up',
     'Optimist',
     'Like self-development and order',
