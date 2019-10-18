@@ -5,7 +5,7 @@ const socialAnchorsElements = [...document.querySelectorAll('.icon a')];
 // okay. if you can open index.js - you can read all facts withour button clicking
 const factsHtml = [
     'Software Engineer',
-    'Live in Zaporizhzhya, Ukraine',
+    'Live in Kyiv, Ukraine',
     'Study at the magistracy of <a href="https://www.zieit.edu.ua/" rel="nofollow">ZIEIT</a>',
     'Also, have programming engineering diploma of the same university',
     'And finally, have <a href="http://zkrzntu.org.ua/" rel="nofollow">college</a> Applied Math diploma',
@@ -34,7 +34,7 @@ const factsHtml = [
     'Don\'t like boring things',
     'Pixel is the best smartphone ever',
     'Lost Pixel 2XL in bus',
-    'Favorite city - Kiev',
+    'Favorite city - Kiyv',
     'Cannot ride bike',
     'Like rap music',
     'And rap battles',
